@@ -1,0 +1,12 @@
+
+swift_version: 5.0
+
+# Line length
+line_length:
+  warning: 120
+  error: 150
+
+opt_in_rules:
+     - indentation_width
+     - explicit_self
+     - operator_usage_whitespace

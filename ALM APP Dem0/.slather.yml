@@ -1,0 +1,9 @@
+project: /Users/administrator/Desktop/ALM\ APP\ Dem0/ALM\ APP\ Dem0.xcodeproj/
+scheme: ALM\ APP\ Dem0
+source_files:
+  - ALM\ APP\ Dem0/**/*.swift
+ignore:
+  - ALM\ APP\ Dem0/ExcludedFolder/*.swift
+cobertura_xml: true
+html: true
+output_directory: ALM\ APP\ Dem0/CoverageReports

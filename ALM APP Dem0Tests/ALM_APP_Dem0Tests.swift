@@ -2,11 +2,10 @@
 //  ALM_APP_Dem0Tests.swift
 //  ALM APP Dem0Tests
 //
-//  Created by administrator on 01/08/23.
+//  Created by administrator on 04/08/23.
 //
 
 import XCTest
-@testable import ALM_APP_Dem0
 
 final class ALM_APP_Dem0Tests: XCTestCase {
 
@@ -28,9 +27,32 @@ final class ALM_APP_Dem0Tests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
+    func helloWorld() -> String {
+            return "Hello, World!"
+        }
 
-}
+        // Unit test for the "Hello World" function
+        func testHelloWorld() {
+            // Arrange
+            let expectedResult = "Hello, World!"
+            
+            // Act
+            let result = helloWorld()
+            
+            // Assert
+            XCTAssertEqual(result, expectedResult, "Expected: \(expectedResult), but got: \(result)")
+        }
+    }
+
+
+
+
+
+
+
+
+

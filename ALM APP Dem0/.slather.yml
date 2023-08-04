@@ -7,7 +7,7 @@ xcodeproj: ALM\ APP\ Dem0.xcodeproj/
 # Specify the scheme(s) you want to analyze for code coverage
 # Replace 'YourSchemeName' with the name(s) of the scheme(s) you use for testing
 scheme:
- - ALM APP Dem0Tests
+ - ALM\ APP\ Dem0Tests/
  # - ALM\ APP\ Dem0UITests/
 
 # Specify the output format for the coverage report

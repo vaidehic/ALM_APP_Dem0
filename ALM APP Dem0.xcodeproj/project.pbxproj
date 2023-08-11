@@ -14,6 +14,7 @@
 		C393EC772A79294800CD5B67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393EC762A79294800CD5B67 /* ContentView.swift */; };
 		C393EC792A79294C00CD5B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C393EC782A79294C00CD5B67 /* Assets.xcassets */; };
 		C393EC7C2A79294C00CD5B67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C393EC7B2A79294C00CD5B67 /* Preview Assets.xcassets */; };
+		C3C5186B2A82400F00102B95 /* jenkins.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3C5186A2A82400F00102B95 /* jenkins.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		C393EC762A79294800CD5B67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C393EC782A79294C00CD5B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C393EC7B2A79294C00CD5B67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3C5186A2A82400F00102B95 /* jenkins.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = jenkins.plist; sourceTree = "<group>"; };
+		C3C5186C2A86525900102B95 /* ALM APP Dem0Tests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALM APP Dem0Tests.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 		C393EC682A79294800CD5B67 = {
 			isa = PBXGroup;
 			children = (
+				C3C5186C2A86525900102B95 /* ALM APP Dem0Tests.xctestplan */,
+				C3C5186A2A82400F00102B95 /* jenkins.plist */,
 				C393EC732A79294800CD5B67 /* ALM APP Dem0 */,
 				C3167EEC2A7CC331004EAC99 /* ALM APP Dem0Tests */,
 				C3167EFB2A7CD066004EAC99 /* ALM APP Dem0UITests */,
@@ -246,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C5186B2A82400F00102B95 /* jenkins.plist in Resources */,
 				C393EC7C2A79294C00CD5B67 /* Preview Assets.xcassets in Resources */,
 				C393EC792A79294C00CD5B67 /* Assets.xcassets in Resources */,
 			);
@@ -320,13 +326,17 @@
 		C3167EF22A7CC331004EAC99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				"GENERATE_PROFILING_CODE[sdk=*]" = NO;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "almapp.cybage.com.ALM-APP-Dem0Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = almapp.cybage.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,13 +347,16 @@
 		C3167EF32A7CC331004EAC99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "almapp.cybage.com.ALM-APP-Dem0Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,12 +367,16 @@
 		C3167F032A7CD066004EAC99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				"GENERATE_PROFILING_CODE[sdk=*]" = NO;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "almapp.cybage.com.ALM-APP-Dem0UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -370,12 +387,15 @@
 		C3167F042A7CD066004EAC99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "almapp.cybage.com.ALM-APP-Dem0UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,6 +532,8 @@
 				ENABLE_PREVIEWS = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				"GENERATE_PROFILING_CODE[sdk=*]" = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -548,6 +570,7 @@
 				ENABLE_PREVIEWS = YES;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

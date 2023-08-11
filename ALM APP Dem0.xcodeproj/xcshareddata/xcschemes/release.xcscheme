@@ -28,30 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3167EEA2A7CC331004EAC99"
-               BuildableName = "ALM APP Dem0Tests.xctest"
-               BlueprintName = "ALM APP Dem0Tests"
-               ReferencedContainer = "container:ALM APP Dem0.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3167EF92A7CD066004EAC99"
-               BuildableName = "ALM APP Dem0UITests.xctest"
-               BlueprintName = "ALM APP Dem0UITests"
-               ReferencedContainer = "container:ALM APP Dem0.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -73,10 +49,6 @@
             ReferencedContainer = "container:ALM APP Dem0.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <LocationScenarioReference
-         identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
-         referenceType = "1">
-      </LocationScenarioReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

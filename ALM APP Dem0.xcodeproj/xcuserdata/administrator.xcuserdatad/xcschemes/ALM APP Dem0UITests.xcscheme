@@ -18,7 +18,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C393EC8A2A79294D00CD5B67"
+               BlueprintIdentifier = "C3167EF92A7CD066004EAC99"
                BuildableName = "ALM APP Dem0UITests.xctest"
                BlueprintName = "ALM APP Dem0UITests"
                ReferencedContainer = "container:ALM APP Dem0.xcodeproj">

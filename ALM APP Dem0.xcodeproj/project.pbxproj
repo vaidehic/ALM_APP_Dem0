@@ -14,7 +14,6 @@
 		C393EC772A79294800CD5B67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C393EC762A79294800CD5B67 /* ContentView.swift */; };
 		C393EC792A79294C00CD5B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C393EC782A79294C00CD5B67 /* Assets.xcassets */; };
 		C393EC7C2A79294C00CD5B67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C393EC7B2A79294C00CD5B67 /* Preview Assets.xcassets */; };
-		C396C0722A8CE6D30075B6CF /* jenkins.plist in Resources */ = {isa = PBXBuildFile; fileRef = C396C0712A8CE2FC0075B6CF /* jenkins.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		C393EC762A79294800CD5B67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C393EC782A79294C00CD5B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C393EC7B2A79294C00CD5B67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C396C0712A8CE2FC0075B6CF /* jenkins.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = jenkins.plist; sourceTree = "<group>"; };
 		C3C5186C2A86525900102B95 /* ALM APP Dem0Tests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ALM APP Dem0Tests.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,7 +92,6 @@
 		C393EC682A79294800CD5B67 = {
 			isa = PBXGroup;
 			children = (
-				C396C0712A8CE2FC0075B6CF /* jenkins.plist */,
 				C3C5186C2A86525900102B95 /* ALM APP Dem0Tests.xctestplan */,
 				C393EC732A79294800CD5B67 /* ALM APP Dem0 */,
 				C3167EEC2A7CC331004EAC99 /* ALM APP Dem0Tests */,
@@ -251,7 +248,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C396C0722A8CE6D30075B6CF /* jenkins.plist in Resources */,
 				C393EC7C2A79294C00CD5B67 /* Preview Assets.xcassets in Resources */,
 				C393EC792A79294C00CD5B67 /* Assets.xcassets in Resources */,
 			);
